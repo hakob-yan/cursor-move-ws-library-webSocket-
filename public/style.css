@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: mediumseagreen;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    background-color: magenta;
+    width: 100%;
+}
+
+.message-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumslateblue;
+    width: 100%;
+    margin: 50px 0;
+
+}
+
+input {
+    margin: 10px 0;
+}
+
+#btn {
+    background-color: green;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+#cursor {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
